@@ -36,11 +36,11 @@ import com.homecare.GoldenFutureHomeCare.shared.dto.ConsumerDto;
 
 @RestController
 @RequestMapping("/consumers") // http://localhost:2018/
-public class ConsumerController {
+public class ConsumerController2 {
 
 	@Autowired
 	ConsumerService consumerService;
-// I learn git hub today.
+
 	@Autowired
 	AddressService addressService;
 
